@@ -5,6 +5,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 import roman.bannikov.dictionary.model.data.DataModel
 
+
 interface ApiService {
 
     @GET("words/search")
