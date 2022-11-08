@@ -1,4 +1,4 @@
-package roman.bannikov.dictionary
+package roman.bannikov.dictionary.view.fragments
 
 import android.os.Bundle
 import android.text.Editable

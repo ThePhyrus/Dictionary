@@ -1,7 +1,14 @@
-package roman.bannikov.dictionary
+package roman.bannikov.dictionary.view.main
 
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableObserver
+import roman.bannikov.dictionary.model.data.AppState
+import roman.bannikov.dictionary.model.datasource.DataSourceLocal
+import roman.bannikov.dictionary.model.datasource.DataSourceRemote
+import roman.bannikov.dictionary.model.repository.RepositoryImplementation
+import roman.bannikov.dictionary.presenter.Presenter
+import roman.bannikov.dictionary.rx.SchedulerProvider
+import roman.bannikov.dictionary.view.base.View
 
 class MainPresenterImpl<T : AppState, V : View>(
     private val interactor: MainInteractor = MainInteractor(

@@ -1,4 +1,4 @@
-package roman.bannikov.dictionary
+package roman.bannikov.dictionary.rx
 
 import io.reactivex.Scheduler
 

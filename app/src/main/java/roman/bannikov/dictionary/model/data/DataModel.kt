@@ -1,4 +1,4 @@
-package roman.bannikov.dictionary
+package roman.bannikov.dictionary.model.data
 
 import com.google.gson.annotations.SerializedName
 

@@ -1,10 +1,12 @@
-package roman.bannikov.dictionary
+package roman.bannikov.dictionary.view.main.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import roman.bannikov.dictionary.R
+import roman.bannikov.dictionary.model.data.DataModel
 
 class MainAdapter(
     private var onListItemClickListener: OnListItemClickListener,
@@ -25,7 +27,7 @@ class MainAdapter(
     }
 
     override fun onBindViewHolder(holder: RecyclerItemViewHolder, position: Int) {
-        holder.bind(data.get(position))
+        holder.bind(data[position])
     }
 
     override fun getItemCount(): Int {

@@ -1,4 +1,4 @@
-package roman.bannikov.dictionary
+package roman.bannikov.dictionary.presenter
 
 import io.reactivex.Observable
 

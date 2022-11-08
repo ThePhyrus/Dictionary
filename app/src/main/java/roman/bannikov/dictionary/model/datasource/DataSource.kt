@@ -1,4 +1,4 @@
-package roman.bannikov.dictionary
+package roman.bannikov.dictionary.model.datasource
 
 import io.reactivex.Observable
 

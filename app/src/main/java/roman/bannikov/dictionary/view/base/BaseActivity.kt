@@ -1,7 +1,9 @@
-package roman.bannikov.dictionary
+package roman.bannikov.dictionary.view.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import roman.bannikov.dictionary.model.data.AppState
+import roman.bannikov.dictionary.presenter.Presenter
 
 
 abstract class BaseActivity<T : AppState> : AppCompatActivity(), View {

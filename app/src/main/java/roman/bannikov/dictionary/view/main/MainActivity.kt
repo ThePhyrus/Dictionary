@@ -1,11 +1,19 @@
-package roman.bannikov.dictionary
+package roman.bannikov.dictionary.view.main
 
 import android.os.Bundle
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
+import roman.bannikov.dictionary.R
 import roman.bannikov.dictionary.databinding.ActivityMainBinding
+import roman.bannikov.dictionary.model.data.AppState
+import roman.bannikov.dictionary.model.data.DataModel
+import roman.bannikov.dictionary.presenter.Presenter
+import roman.bannikov.dictionary.view.base.BaseActivity
+import roman.bannikov.dictionary.view.base.View
+import roman.bannikov.dictionary.view.fragments.SearchDialogFragment
+import roman.bannikov.dictionary.view.main.adapter.MainAdapter
 
 class MainActivity : BaseActivity<AppState>() {
 
